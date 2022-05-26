@@ -27,7 +27,7 @@ En mi caso la ruta de la imagen iso es <code>/home/jeff/Downloads/imagen.iso</co
 
 ## 3. Comando dd
 
-El comando para crear el USB es booteable es <code>dd</code>. Para realizar esto necesitamos brindarle algunos parámetros, en cuestión los más importantes son 2:
+El comando para crear el USB booteable es <code>dd</code>. Para realizar esto necesitamos brindarle algunos parámetros, en cuestión los más importantes son 2:
 * **if**: quiere decir **i**nput **f**ile, acá debemos colocar la ruta en la que se encuentra la imagen ISO.
 * **of**: quiere decir **o**utput **f**ile, acá debemos colocar la ruta en la que se encuentra el dispositivo USB.
 
