@@ -4,12 +4,13 @@ Si estás cansado de ver la misma apariencia en la terminal de Linux o solamente
 
 OhMyBash es un *framework* de código abierto que permite administrar la configuración de bash. Además, con este framework no solamente puedes instalar temas, sino que también tienes la posibilidad de instalar [plugins](https://github.com/ohmybash/oh-my-bash/tree/master/plugins).
 
-Un ejemplo de su uso en cuando tenemos un directorio que trabaja con <code>git</code>, la terminal utiliza ciertos colores para identificar en qué estado se encuentran los archivos: si han sido modificados, si están listos para un *commit* o si todo se encuentra actualizado.
+Un ejemplo de su uso es cuando tenemos un directorio que trabaja con <code>git</code>, la terminal utiliza ciertos colores para identificar en qué estado se encuentran los archivos: si han sido modificados, si están listos para un *commit* o si todo se encuentra actualizado.
 
 ## Requisitos
 
 * <code>git</code> instalado
 * <code>curl</code> o <code>wget</code> instalado
+* Fuentes powerline instaladas
 
 ## Instalación
 
@@ -51,11 +52,13 @@ A verse de esta forma:
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1614984220580/LKQUolrP5.png)
 
+> IMPORTANTE: Debes tener instaladas las fuentes Powerline para visualizar correctamente los temas. En cualquier caso, se pueden instalar con el comando <code>sudo apt install fonts-powerline</code>. Luego solo las seleccionas en las preferencias de la terminal y listo.
+
 ## Ejemplo de un directorio trabajando con git
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1614984365887/5FRPGGxDR.png)
 
-Dependiendo de los estados de los archivos que se estén monitoreando los colores varían, lo cual facilita la identificación de sus estados de una forma visual.
+Dependiendo de los estados de los archivos que se estén monitoreando, los colores variarán, lo cual facilita la identificación de sus estados.
 
 Sitio web oficial de OhMyBash: https://ohmybash.nntoan.com/
 
